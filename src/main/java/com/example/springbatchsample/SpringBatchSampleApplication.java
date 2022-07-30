@@ -32,7 +32,7 @@ public class SpringBatchSampleApplication {
 					public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws
 							Exception {
 						System.out.println("Hello, World!");
-						return RepeatStatus.FINISHED;
+						return RepeatStatus.FINISHED; // RepeatStatus.CONTINUABLE 일 경우, 영원히 수행됨.
 					}
 				}).build();
 	}
