@@ -15,8 +15,11 @@
 
 ## 📋 INDEX
 
-- [초기설정 관련 내용](https://github.com/eunsolJo/spring-batch-sample/blob/main/src/main/java/com/example/springbatchsample/init.md)
+- [초기설정 관련 내용](https://github.com/eunsolJo/spring-batch-sample/blob/main/docs/init.md)
 - [HelloWorld](https://github.com/eunsolJo/spring-batch-sample/blob/main/src/main/java/com/example/springbatchsample/SpringBatchSampleApplication.java)
+
+
+- [Job](https://github.com/eunsolJo/spring-batch-sample/blob/main/docs/job.md)
 
 ## Reference
 📘 [스프링 배치 완벽 가이드 2/e, 마이클 미넬라 저](http://www.yes24.com/Product/Goods/99422216)

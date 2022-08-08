@@ -8,4 +8,7 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
-
+    job:
+      # names : job4
+      # 스프링 배치에서 잡이 자동으로 실행되지 않게 설정
+      enabled: true
